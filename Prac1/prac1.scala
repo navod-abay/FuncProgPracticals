@@ -19,6 +19,7 @@ def Q5(easy1:Int, tempo:Int, easy2:Int) : Double = {
 @main def main = {
     println(areaDisk(5)); 
     println(convertCelcius(35))
+    println(VolumeSphere(5))
     println(Q4(60))
     println(Q5(2, 3, 2))
 }
