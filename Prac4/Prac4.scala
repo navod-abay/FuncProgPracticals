@@ -1,4 +1,4 @@
-def Questions1_4() =  {
+def Question1_4() =  {
     def readQuantities(i:Int):Array[Int]={
         if(i<1) Array()
         else {
@@ -67,7 +67,7 @@ def Questions1_4() =  {
 
 }
 
-def Questions2_4() = {
+def Question2_4() = {
     println("Enter a number: ")
     val num = scala.io.StdIn.readInt()
     num match {
