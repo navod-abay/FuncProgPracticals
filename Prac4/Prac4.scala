@@ -89,7 +89,10 @@ def Question3_4() = {
 }
 
 @main def main() = {
+    println("Question 1")
     Question1_4()
+    println("Question 2")
     Question2_4()
+    println("Question 3")
     Question3_4()
 }
