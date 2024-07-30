@@ -57,6 +57,24 @@ def getStudentInfo(): (String, Int, Int, Double, Char) = {
 }
 
 
+def getStudentRecords(): Array[(String, Int, Int, Double, Char)] = {
+  var records = Array[(String, Int, Int, Double, Char)]()
+  var continue = true
+
+  while (continue) {
+    val record = getStudentInfo()
+    records :+= record 
+
+    println("Do you want to enter another student record? (yes/no):")
+    val response = StdIn.readLine().trim.toLowerCase
+
+    continue = response == "yes"
+  }
+
+  records
+}
+
+
 def printStudentRecord(studentRecord: (String, Int, Int, Double, Char)): Unit = {
   val (name, marks, totalMarks, percentage, grade) = studentRecord
   println(s"Name: $name")
@@ -66,18 +84,7 @@ def printStudentRecord(studentRecord: (String, Int, Int, Double, Char)): Unit = 
 }
 
 
-def getStudentInfoWithRetry(): (String, Int, Int, Double, Char) = {
-  Iterator.continually(getStudentInfo())
-    .dropWhile { case (_, marks, totalMarks, _, _) =>
-      val (isValid, errorMessage) = validateInput(_, marks.toString, totalMarks.toString)
-      if (!isValid) println(errorMessage.get)
-      !isValid
-    }
-    .next()
-}
-
-
-object StudentRecordApp extends App {
-  val studentRecord = getStudentInfoWithRetry()
-  printStudentRecord(studentRecord)
+@main def main() = {
+  val studentRecords = getStudentRecords()
+  studentRecords.foreach(printStudentRecord)
 }
