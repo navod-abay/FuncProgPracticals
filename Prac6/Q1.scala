@@ -32,6 +32,16 @@ def Question1() = {
 
     products
   }
+  def searchProduct(Inventory: List[Product], productID:String) = {
+        Inventory.find(_.productId == productID) match {
+            case Some(product) => {
+                println("Product Found")
+                println("Product ID:\t" + product.productId + " Name:\t" + product.name + " Quantity:\t" + product.quantity + " Price:\t" + product.price)
+            } case None => {
+                println("Productnot found")
+            }
+        }
+    }
   def getProductNameList(inventory: List[Product]): List[String] = {
     inventory.map(_.name)
   }
@@ -57,15 +67,19 @@ def Question1() = {
     productMap.toList
   }
 
-  def findProductById(products: List[Product], productId: String): Unit = {
-    products.find(_.id == productId) match {
+  def findProductById(inventory: List[Product], ProductID: String): Unit = {
+    inventory.find(_.productId == ProductID) match {
       case Some(product) =>
-        println(s"Product ID: ${product.id}")
+        println(s"Product ID: ${product.productId}")
         println(s"Name: ${product.name}")
         println(s"Quantity: ${product.quantity}")
-        println(s"Price: $${product.price}")
+        println(s"Price: ${product.price}")
       case None =>
         println("Product not found.")
     }
   }
+}
+
+@main def main() = {
+    Question1();
 }
