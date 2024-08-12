@@ -20,14 +20,21 @@ def ceaserDecrypt(text: String, shift: Int): String  = {
     })
 } 
 
-def Cipher(fx: (String, Int)=> String) = {
-    fx
+def cipher(text: String, shift: Int, mode: String, 
+           encryptFunc: (String, Int) => String = ceaserEncrypt, 
+           decryptFunc: (String, Int) => String = ceaserDecrypt, 
+           ): String = {
+  
+  mode.toLowerCase match {
+    case "encrypt" => encryptFunc(text, shift)
+    case "decrypt" => decryptFunc(text, shift)
+    case _         => throw new IllegalArgumentException("Mode should be 'encrypt' or 'decrypt'")
+  }
 }
 
 
 @main def main() = {
-    println(ceaserDecrypt(ceaserEncrypt("Hello world", 1), 1))
-    println(ceaserDecrypt(ceaserEncrypt("Hello world", 2), 2))
-    println(ceaserDecrypt(ceaserEncrypt("abcdefghijklmnopqrstuvwxyz", 2), 2))
-    ceaserDecrypt(ceaserEncrypt("abcdefghijklmnopqrstuvwxyz", 2), 2)
+    println(cipher("Hello World", 2, "encrypt"))
+    println(cipher("abcdefghijklmnopqrstuvwxyz", 2, "encrypt"))
+    println(cipher("abcdefghijklmnopqrstuvwxyz", 2, "decrypt"))
 }
