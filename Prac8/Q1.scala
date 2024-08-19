@@ -34,7 +34,7 @@ def cipher(text: String, shift: Int, mode: String,
 
 
 @main def main() = {
-    println(cipher("Hello World", 2, "encrypt"))
+    println(cipher(cipher("Hello World", 2, "encrypt"), 2, "decrypt"))
     println(cipher("abcdefghijklmnopqrstuvwxyz", 2, "encrypt"))
     println(cipher("abcdefghijklmnopqrstuvwxyz", 2, "decrypt"))
 }

@@ -38,10 +38,39 @@ def Question2_2() = {
 
     c = c + 1
     c = c * a
-    printf("c = ++c * a++ = %d", c )
+    printf("c = ++c * a++ = %d\n", c )
     a = a + 1
 };
+def Question3_2(workingHours: Int, OThours: Int) = {
+    val OTHourRate = 85 
+    val workinglHourRate = 250
+    val taxRate = 0.12
+    def calculateGrossSalary(): Int = workingHours* workinglHourRate + OThours * OTHourRate
+
+    def calculateTax(grossSalary: Int): Double = grossSalary * taxRate
+    val grossSalary = calculateGrossSalary()
+    printf("Salary = %f\n", grossSalary - calculateTax(grossSalary))
+
+
+}
+
+def Question4_2(ticketPrice: Int) =  {
+    def numPeople(): Int = 120 - (ticketPrice - 15) / 5 * 20
+    def cost(numberofPeople: Int) = 500 + numberofPeople * 3
+    val numberofPeople = numPeople()
+    printf("The profit when ticket price is %d = %d\n", ticketPrice, ticketPrice * numberofPeople - cost(numberofPeople))
+}
 
 @main def main = {
+    Question1_2()
+    println()
+    println("_____________________________________________________________________________")
     Question2_2()
+    println()
+    println("_____________________________________________________________________________")
+    Question3_2(40, 30)
+    println()
+    println("_____________________________________________________________________________")
+    Question4_2(15)
+    Question4_2(20)
 }

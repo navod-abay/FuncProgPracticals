@@ -1,0 +1,891 @@
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@48b6a8da]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@77297279]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@48b6a8da]
+2024.06.16 22:06:53 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.16 22:06:54 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac1\prac1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.16 22:07:24 INFO  Running List(C:\Users\dell\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.06.16 22:07:24 INFO  Attempting to connect to the build server...
+2024.06.16 22:07:24 INFO  Running BSP server List(C:\Users\dell\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-envs.json, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.06.16 22:07:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\bsp.trace.json or C:\Users\dell\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.16 22:07:28 INFO  time: Connected to build server in 3.62s
+2024.06.16 22:07:28 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.16 22:07:28 INFO  compiling practicals_2dc58a56ae (1 scala source)
+2024.06.16 22:07:28 INFO  time: compiled Practicals_2dc58a56ae in 0.44s
+2024.06.16 22:07:31 INFO  time: indexed workspace in 2.74s
+2024.06.17 21:03:34 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.17 21:03:34 INFO  no build target found for /scala/Double.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 21:03:34 INFO  compiling practicals_2dc58a56ae (1 scala source)
+2024.06.17 21:03:34 INFO  time: compiled Practicals_2dc58a56ae in 0.55s
+2024.06.18 09:29:01 INFO  Shutting down server
+2024.06.18 09:29:01 INFO  shutting down Metals
+2024.06.18 09:29:01 INFO  Shut down connection with build server.
+2024.06.18 09:29:01 INFO  Exiting server
+2024.07.15 14:54:41 INFO  Started: Metals version 1.3.3 in folders 'C:\Users\dell\UoC\FuntionalProgramming\Practicals' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@4b88ee6a]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@437afd63]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4b88ee6a]
+2024.07.15 14:54:41 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.15 14:54:42 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:43 INFO  Attempting to connect to the build server...
+2024.07.15 14:54:43 INFO  Running BSP server List(C:\Users\dell\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-envs.json, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.07.15 14:54:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\bsp.trace.json or C:\Users\dell\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.15 14:54:45 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2024.07.15 14:54:45 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2024.07.15 14:54:45 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2024.07.15 14:54:51 INFO  BSP server: Still downloading:
+2024.07.15 14:54:51 INFO  BSP server: https://github.com/coursier/jvm-index/raw/master/index.json (73.09 %, 1282880 / 1755223)
+2024.07.15 14:54:51 INFO  BSP server: 
+2024.07.15 14:54:52 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2024.07.15 14:54:56 INFO  BSP server: Starting compilation server
+Jul 15, 2024 2:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 15, 2024 2:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Jul 15, 2024 2:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jul 15, 2024 2:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 15, 2024 2:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Jul 15, 2024 2:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 15, 2024 2:54:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 15, 2024 2:54:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 15, 2024 2:54:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 15, 2024 2:54:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 15, 2024 2:54:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:58 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:59 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:59 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:59 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:59 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:59 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:54:59 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:01 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:01 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:01 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:01 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:01 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:01 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:01 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:01 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:02 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:02 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:02 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:02 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:02 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:04 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:04 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:04 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:04 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:05 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:05 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:05 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:05 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:05 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:05 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:06 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:07 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:10 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:11 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:11 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 14:55:11 INFO  time: Connected to build server in 28s
+2024.07.15 14:55:11 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.15 14:55:11 INFO  time: Imported build in 0.17s
+2024.07.15 14:55:11 INFO  running doctor check
+2024.07.15 14:55:11 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.07.15 14:55:12 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.15 14:55:17 INFO  time: compiled Practicals_2dc58a56ae in 4.71s
+2024.07.15 14:55:17 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.15 14:55:18 INFO  time: compiled Practicals_2dc58a56ae in 0.93s
+Jul 15, 2024 2:55:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 176
+Jul 15, 2024 2:55:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 180
+2024.07.15 14:55:21 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.15 14:55:32 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.15 14:55:32 INFO  time: compiled Practicals_2dc58a56ae in 0.95s
+2024.07.15 14:55:36 INFO  time: indexed workspace in 25s
+2024.07.15 14:55:37 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.15 14:55:37 INFO  time: compiled Practicals_2dc58a56ae in 0.63s
+2024.07.15 14:55:38 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.15 14:55:38 INFO  time: compiled Practicals_2dc58a56ae in 0.99s
+2024.07.15 14:55:40 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.15 14:55:40 INFO  time: compiled Practicals_2dc58a56ae in 0.66s
+Jul 15, 2024 2:55:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 260
+Jul 15, 2024 2:58:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 332
+2024.07.15 14:58:07 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.15 14:58:09 INFO  time: compiled Practicals_2dc58a56ae in 1.31s
+2024.07.15 15:02:39 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac5\Prac5.scala
+scala.meta.tokenizers.TokenizeException: <input>:18: error: unclosed character literal
+        if(temp == '')
+                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:391)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:395)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Jul 15, 2024 3:02:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 454
+2024.07.15 15:05:26 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.15 15:05:26 INFO  time: compiled Practicals_2dc58a56ae in 0.57s
+2024.07.15 15:06:00 INFO  Shutting down server
+2024.07.15 15:06:00 INFO  shutting down Metals
+2024.07.15 15:06:00 INFO  Shut down connection with build server.
+2024.07.15 15:06:00 INFO  Exiting server
+2024.07.23 11:06:15 INFO  Started: Metals version 1.3.3 in folders 'C:\Users\dell\UoC\FuntionalProgramming\Practicals' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@48617e3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@48d3db9b]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@48617e3]
+2024.07.23 11:06:15 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.23 11:06:17 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac3\Prac3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 11:06:17 INFO  Attempting to connect to the build server...
+2024.07.23 11:06:17 INFO  Running BSP server List(C:\Users\dell\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-envs.json, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.07.23 11:06:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\bsp.trace.json or C:\Users\dell\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.23 11:06:23 INFO  time: Connected to build server in 5.58s
+2024.07.23 11:06:23 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.23 11:06:23 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac3\Prac3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.23 11:06:23 INFO  time: Imported build in 0.15s
+2024.07.23 11:06:23 INFO  running doctor check
+2024.07.23 11:06:23 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.07.23 11:06:24 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:06:27 INFO  time: compiled Practicals_2dc58a56ae in 3.4s
+2024.07.23 11:06:27 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:06:30 INFO  time: compiled Practicals_2dc58a56ae in 2.08s
+2024.07.23 11:06:31 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.23 11:06:33 INFO  time: indexed workspace in 9.93s
+2024.07.23 11:06:34 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:06:35 INFO  time: compiled Practicals_2dc58a56ae in 1.53s
+2024.07.23 11:06:35 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:06:37 INFO  time: compiled Practicals_2dc58a56ae in 1.18s
+2024.07.23 11:06:37 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:06:38 INFO  time: compiled Practicals_2dc58a56ae in 0.84s
+2024.07.23 11:07:03 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:07:03 INFO  time: compiled Practicals_2dc58a56ae in 0.6s
+2024.07.23 11:07:10 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:07:10 INFO  time: compiled Practicals_2dc58a56ae in 0.42s
+Jul 23, 2024 11:07:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+Jul 23, 2024 11:07:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+2024.07.23 11:07:42 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac3\Prac3.scala
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed string literal
+    var result = Question1_3("Hello 
+                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.23 11:07:45 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:07:45 INFO  time: compiled Practicals_2dc58a56ae in 0.43s
+2024.07.23 11:09:21 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:09:21 INFO  time: compiled Practicals_2dc58a56ae in 0.33s
+2024.07.23 11:10:41 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:10:41 INFO  time: compiled Practicals_2dc58a56ae in 0.4s
+2024.07.23 11:10:58 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:10:58 INFO  time: compiled Practicals_2dc58a56ae in 0.5s
+Jul 23, 2024 11:11:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 571
+2024.07.23 11:11:29 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:11:29 INFO  time: compiled Practicals_2dc58a56ae in 0.46s
+2024.07.23 11:12:11 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:12:11 INFO  time: compiled Practicals_2dc58a56ae in 0.43s
+Jul 23, 2024 11:13:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 702
+2024.07.23 11:13:33 INFO  compiling practicals_2dc58a56ae (5 scala sources)
+2024.07.23 11:13:33 INFO  time: compiled Practicals_2dc58a56ae in 0.39s
+2024.07.23 11:21:55 INFO  Shutting down server
+2024.07.23 11:21:55 INFO  shutting down Metals
+2024.07.23 11:21:55 INFO  Shut down connection with build server.
+2024.07.23 11:21:55 INFO  Exiting server
+2024.07.29 10:31:35 INFO  Started: Metals version 1.3.3 in folders 'C:\Users\dell\UoC\FuntionalProgramming\Practicals' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@55766f00]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@b60c64d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@55766f00]
+2024.07.29 10:31:35 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.29 10:31:36 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac2\Prac2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.29 10:31:36 INFO  Attempting to connect to the build server...
+2024.07.29 10:31:36 INFO  Running BSP server List(C:\Users\dell\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-envs.json, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.07.29 10:31:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\bsp.trace.json or C:\Users\dell\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.29 10:31:41 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2024.07.29 10:31:41 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2024.07.29 10:31:41 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2024.07.29 10:31:47 INFO  BSP server: Still downloading:
+2024.07.29 10:31:47 INFO  BSP server: https://github.com/coursier/jvm-index/raw/master/index.json (28.70 %, 533056 / 1857527)
+2024.07.29 10:31:47 INFO  BSP server: 
+2024.07.29 10:31:47 INFO  Shutting down server
+2024.07.29 10:31:47 INFO  shutting down Metals
+2024.07.29 10:31:47 INFO  Exiting server
+2024.07.30 06:24:10 INFO  Started: Metals version 1.3.4 in folders 'C:\Users\dell\UoC\FuntionalProgramming\Practicals' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6107dbca]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1179f7a7]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6107dbca]
+2024.07.30 06:24:12 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Jul 30, 2024 6:24:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jul 30, 2024 6:24:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.07.30 06:24:13 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 06:24:13 INFO  Attempting to connect to the build server...
+2024.07.30 06:24:13 INFO  Running BSP server List(C:\Users\dell\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-envs.json, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.07.30 06:24:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\bsp.trace.json or C:\Users\dell\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.30 06:24:22 INFO  time: Connected to build server in 8.34s
+2024.07.30 06:24:22 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.30 06:24:22 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:24:23 INFO  time: Imported build in 1.77s
+2024.07.30 06:24:24 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:24:33 INFO  running doctor check
+2024.07.30 06:24:33 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.07.30 06:24:40 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.30 06:24:42 INFO  time: indexed workspace in 8.75s
+2024.07.30 06:24:42 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:24:44 INFO  time: compiled Practicals_2dc58a56ae in 1.72s
+2024.07.30 06:24:44 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:24:44 INFO  time: compiled Practicals_2dc58a56ae in 0.26s
+2024.07.30 06:24:45 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:24:45 INFO  time: compiled Practicals_2dc58a56ae in 0.34s
+2024.07.30 06:28:53 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:28:53 INFO  time: compiled Practicals_2dc58a56ae in 0.43s
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar
+Downloading https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar (77.01 %, 667830 / 867190)
+https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar (57.19 %, 1409024 / 2463771)
+https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar (54.62 %, 442289 / 809750)
+https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar (41.01 %, 434752 / 1060013)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar (16.32 %, 616256 / 3775795)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar (3.62 %, 441145 / 12200301)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.jar
+Downloaded https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar (71.24 %, 1488135 / 2088845)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar (51.63 %, 1949504 / 3775795)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar (31.56 %, 2127014 / 6740134)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar (27.62 %, 3369785 / 12200301)
+
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar (92.42 %, 1930503 / 2088845)
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar (61.04 %, 2304832 / 3775795)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar (42.25 %, 2847910 / 6740134)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar (35.81 %, 4369209 / 12200301)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar (80.00 %, 3020608 / 3775795)
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar (59.75 %, 4027558 / 6740134)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar (48.44 %, 5909305 / 12200301)
+
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar (94.03 %, 6337702 / 6740134)
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar (69.02 %, 8420153 / 12200301)
+
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Still downloading:
+https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar (90.97 %, 11098937 / 12200301)
+
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar
+Jul 30, 2024 6:32:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 413
+2024.07.30 06:32:37 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:32:37 INFO  time: compiled Practicals_2dc58a56ae in 0.96s
+2024.07.30 06:32:53 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:32:53 INFO  time: compiled Practicals_2dc58a56ae in 0.35s
+2024.07.30 06:38:36 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:38:36 INFO  time: compiled Practicals_2dc58a56ae in 0.87s
+2024.07.30 06:38:55 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac6/Q1.scala
+2024.07.30 06:39:13 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 06:39:13 INFO  time: compiled Practicals_2dc58a56ae in 0.74s
+Jul 30, 2024 9:42:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1381
+Jul 30, 2024 9:42:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1645
+2024.07.30 09:45:35 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: unclosed string interpolation
+        println(s"Product ID: ${product.i")
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:561)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 09:45:43 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: unclosed string interpolation
+        println(s"Product ID: ${product.i")
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:561)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 09:45:43 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: unclosed string interpolation
+        println(s"Product ID: ${product.i")
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:561)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 09:45:44 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: unclosed string interpolation
+        println(s"Product ID: ${product.i")
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:561)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 09:45:44 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: unclosed string interpolation
+        println(s"Product ID: ${product.i")
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:561)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 09:45:45 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: unclosed string interpolation
+        println(s"Product ID: ${product.i")
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:561)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 09:45:51 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: unclosed string interpolation
+        println(s"Product ID: ${product.i")
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:561)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 09:45:52 ERROR Failed to tokenize input for semantic tokens for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q1.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: unclosed string interpolation
+        println(s"Product ID: ${product.i")
+                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:347)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:561)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.30 09:46:32 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 09:46:32 INFO  time: compiled Practicals_2dc58a56ae in 0.8s
+Jul 30, 2024 9:46:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2286
+2024.07.30 09:47:01 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 09:47:01 INFO  time: compiled Practicals_2dc58a56ae in 0.32s
+2024.07.30 09:47:41 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 09:47:41 INFO  time: compiled Practicals_2dc58a56ae in 0.43s
+Jul 30, 2024 9:48:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2464
+Jul 30, 2024 9:48:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2483
+2024.07.30 09:48:27 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 09:48:27 INFO  time: compiled Practicals_2dc58a56ae in 0.35s
+2024.07.30 09:49:29 INFO  compiling practicals_2dc58a56ae (6 scala sources)
+2024.07.30 09:49:29 INFO  time: compiled Practicals_2dc58a56ae in 0.33s
+2024.07.30 09:50:55 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 09:50:55 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 09:50:56 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 09:50:56 INFO  time: compiled Practicals_2dc58a56ae in 0.38s
+2024.07.30 09:50:56 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 09:50:57 INFO  time: compiled Practicals_2dc58a56ae in 0.51s
+2024.07.30 09:50:57 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac6/Q2.scala
+2024.07.30 09:50:57 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac6\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.30 09:50:57 INFO  running doctor check
+2024.07.30 09:50:57 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.07.30 09:50:57 INFO  time: code lens generation in 1.51s
+2024.07.30 09:50:59 INFO  time: indexed workspace in 2.83s
+2024.07.30 09:53:05 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 09:53:05 INFO  time: compiled Practicals_2dc58a56ae in 0.3s
+2024.07.30 09:53:05 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac6/Q2.scala
+Jul 30, 2024 9:53:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2748
+2024.07.30 09:53:59 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 09:53:59 INFO  time: compiled Practicals_2dc58a56ae in 0.41s
+2024.07.30 09:54:01 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac6/Q2.scala
+2024.07.30 09:54:49 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 09:54:50 INFO  time: compiled Practicals_2dc58a56ae in 1.12s
+2024.07.30 10:08:35 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:08:35 INFO  time: compiled Practicals_2dc58a56ae in 0.67s
+2024.07.30 10:09:07 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:09:07 INFO  time: compiled Practicals_2dc58a56ae in 0.69s
+2024.07.30 10:09:42 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:09:42 INFO  time: compiled Practicals_2dc58a56ae in 0.45s
+2024.07.30 10:12:23 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:12:23 INFO  time: compiled Practicals_2dc58a56ae in 0.32s
+2024.07.30 10:13:26 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:13:26 INFO  time: compiled Practicals_2dc58a56ae in 0.36s
+2024.07.30 10:13:29 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:13:29 INFO  time: compiled Practicals_2dc58a56ae in 0.44s
+2024.07.30 10:13:40 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:13:40 INFO  time: compiled Practicals_2dc58a56ae in 0.54s
+2024.07.30 10:13:46 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:13:46 INFO  time: compiled Practicals_2dc58a56ae in 0.36s
+2024.07.30 10:13:51 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:13:51 INFO  time: compiled Practicals_2dc58a56ae in 0.29s
+2024.07.30 10:13:55 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:13:55 INFO  time: compiled Practicals_2dc58a56ae in 0.28s
+Jul 30, 2024 10:51:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3385
+2024.07.30 10:54:41 INFO  compiling practicals_2dc58a56ae (7 scala sources)
+2024.07.30 10:54:41 INFO  time: compiled Practicals_2dc58a56ae in 0.35s
+2024.07.30 11:55:53 INFO  Shutting down server
+2024.07.30 11:55:53 INFO  shutting down Metals
+2024.07.30 11:55:53 INFO  Shut down connection with build server.
+2024.07.30 11:55:53 INFO  Exiting server
+2024.08.06 05:50:49 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\dell\UoC\FuntionalProgramming\Practicals' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@eaadb29]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6c46c9be]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@eaadb29]
+2024.08.06 05:50:49 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Aug 06, 2024 5:50:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Aug 06, 2024 5:50:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.08.06 05:50:50 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 05:50:51 INFO  Attempting to connect to the build server...
+2024.08.06 05:50:51 INFO  Running BSP server List(C:\Users\dell\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-envs.json, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.08.06 05:50:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\bsp.trace.json or C:\Users\dell\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 05:50:53 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.06 05:50:53 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.06 05:50:53 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.06 05:50:57 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.06 05:51:03 INFO  time: Connected to build server in 12s
+2024.08.06 05:51:03 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.06 05:51:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 06, 2024 5:51:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Aug 06, 2024 5:51:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Aug 06, 2024 5:51:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2024.08.06 05:51:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 06, 2024 5:51:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2024.08.06 05:51:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 05:51:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 06, 2024 5:51:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2024.08.06 05:51:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 05:51:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 06, 2024 5:51:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2024.08.06 05:51:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 05:51:03 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 05:51:04 INFO  compiling practicals_2dc58a56ae (8 scala sources)
+2024.08.06 05:51:05 INFO  time: Imported build in 1.51s
+2024.08.06 05:51:05 INFO  running doctor check
+2024.08.06 05:51:05 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.08.06 05:51:05 INFO  compiling practicals_2dc58a56ae (8 scala sources)
+2024.08.06 05:51:05 INFO  time: compiled Practicals_2dc58a56ae in 0.62s
+Aug 06, 2024 5:51:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+Aug 06, 2024 5:51:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59
+Aug 06, 2024 5:51:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+Aug 06, 2024 5:51:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+2024.08.06 05:51:12 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 05:51:13 INFO  time: indexed workspace in 8.36s
+2024.08.06 05:51:14 INFO  compiling practicals_2dc58a56ae (8 scala sources)
+2024.08.06 05:51:14 INFO  time: compiled Practicals_2dc58a56ae in 0.66s
+2024.08.06 05:51:15 INFO  compiling practicals_2dc58a56ae (8 scala sources)
+2024.08.06 05:51:15 INFO  time: compiled Practicals_2dc58a56ae in 0.7s
+2024.08.06 05:51:16 INFO  compiling practicals_2dc58a56ae (8 scala sources)
+2024.08.06 05:51:16 INFO  time: compiled Practicals_2dc58a56ae in 0.67s
+2024.08.06 05:54:30 INFO  compiling practicals_2dc58a56ae (8 scala sources)
+2024.08.06 05:54:30 INFO  time: compiled Practicals_2dc58a56ae in 0.49s
+2024.08.06 05:55:28 INFO  compiling practicals_2dc58a56ae (8 scala sources)
+2024.08.06 05:55:28 INFO  time: compiled Practicals_2dc58a56ae in 0.68s
+2024.08.06 06:02:52 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 06:02:52 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 06:02:52 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac7/Q2.scala
+2024.08.06 06:02:52 INFO  running doctor check
+2024.08.06 06:02:52 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.08.06 06:02:52 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:02:52 INFO  time: compiled Practicals_2dc58a56ae in 0.75s
+2024.08.06 06:02:52 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:02:54 INFO  time: compiled Practicals_2dc58a56ae in 0.93s
+2024.08.06 06:02:55 INFO  time: indexed workspace in 2.45s
+2024.08.06 06:03:56 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:03:56 INFO  time: compiled Practicals_2dc58a56ae in 0.66s
+2024.08.06 06:03:56 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac7/Q2.scala
+2024.08.06 06:04:02 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac7/Q2.scala
+Aug 06, 2024 6:05:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\.reports\metals-full\2024-08-06\r_compiler-error_(Practicals_2dc58a56ae)_06-05-10-343.md
+2024.08.06 06:05:12 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:05:12 INFO  time: compiled Practicals_2dc58a56ae in 0.65s
+Aug 06, 2024 6:05:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1004
+2024.08.06 06:05:49 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:05:49 INFO  time: compiled Practicals_2dc58a56ae in 0.43s
+2024.08.06 06:06:40 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:06:40 INFO  time: compiled Practicals_2dc58a56ae in 0.35s
+2024.08.06 06:17:47 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\dell\UoC\FuntionalProgramming\Practicals' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@4eca86d1]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@f96f83e]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4eca86d1]
+2024.08.06 06:17:51 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 06:17:52 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 06:17:53 INFO  Attempting to connect to the build server...
+2024.08.06 06:17:53 INFO  Running BSP server List(C:\Users\dell\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-envs.json, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.08.06 06:17:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\bsp.trace.json or C:\Users\dell\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.06 06:18:00 INFO  BSP server: Starting compilation server
+2024.08.06 06:18:12 INFO  time: Connected to build server in 19s
+2024.08.06 06:18:12 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.06 06:18:12 INFO  time: Imported build in 0.17s
+2024.08.06 06:18:12 INFO  running doctor check
+2024.08.06 06:18:12 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.08.06 06:18:13 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:18:20 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.06 06:18:21 INFO  time: compiled Practicals_2dc58a56ae in 7.57s
+2024.08.06 06:18:21 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:18:21 INFO  time: indexed workspace in 8.87s
+2024.08.06 06:18:23 INFO  time: compiled Practicals_2dc58a56ae in 2.03s
+2024.08.06 06:18:23 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:18:25 INFO  time: compiled Practicals_2dc58a56ae in 1.42s
+2024.08.06 06:18:25 INFO  compiling practicals_2dc58a56ae (9 scala sources)
+2024.08.06 06:18:27 INFO  time: compiled Practicals_2dc58a56ae in 1.82s
+2024.08.06 06:29:15 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 06:29:15 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac7\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.06 06:29:15 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac7/Q3.scala
+2024.08.06 06:29:15 INFO  compiling practicals_2dc58a56ae (10 scala sources)
+2024.08.06 06:29:15 INFO  time: compiled Practicals_2dc58a56ae in 0.6s
+2024.08.06 06:29:16 INFO  time: Imported build in 0.83s
+2024.08.06 06:29:16 INFO  running doctor check
+2024.08.06 06:29:16 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.08.06 06:29:15 INFO  compiling practicals_2dc58a56ae (10 scala sources)
+2024.08.06 06:29:17 INFO  time: compiled Practicals_2dc58a56ae in 0.73s
+2024.08.06 06:29:18 INFO  time: indexed workspace in 1.72s
+2024.08.06 06:29:39 INFO  compiling practicals_2dc58a56ae (10 scala sources)
+2024.08.06 06:29:39 INFO  time: compiled Practicals_2dc58a56ae in 0.59s
+2024.08.06 06:29:39 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac7/Q3.scala
+Aug 06, 2024 6:29:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+2024.08.06 06:30:27 INFO  compiling practicals_2dc58a56ae (10 scala sources)
+2024.08.06 06:30:27 INFO  time: compiled Practicals_2dc58a56ae in 0.46s
+2024.08.06 06:30:55 INFO  compiling practicals_2dc58a56ae (10 scala sources)
+2024.08.06 06:30:55 INFO  time: compiled Practicals_2dc58a56ae in 0.36s
+2024.08.06 06:32:59 INFO  compiling practicals_2dc58a56ae (10 scala sources)
+2024.08.06 06:32:59 INFO  time: compiled Practicals_2dc58a56ae in 0.4s
+2024.08.06 06:33:38 INFO  compiling practicals_2dc58a56ae (10 scala sources)
+2024.08.06 06:33:38 INFO  time: compiled Practicals_2dc58a56ae in 0.4s
+2024.08.06 06:33:59 INFO  compiling practicals_2dc58a56ae (10 scala sources)
+2024.08.06 06:33:59 INFO  time: compiled Practicals_2dc58a56ae in 0.33s
+2024.08.06 09:28:51 INFO  Shutting down server
+2024.08.06 09:28:51 INFO  shutting down Metals
+2024.08.06 09:28:51 INFO  Shut down connection with build server.
+2024.08.06 09:28:51 INFO  Exiting server

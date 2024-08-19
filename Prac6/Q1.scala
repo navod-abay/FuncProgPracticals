@@ -50,9 +50,7 @@ def Question1() = {
     inventory.map(product => product.quantity * product.price).sum
   }
 
-  def isCollectionEmpty(inventory: List[Product]): Boolean = {
-    inventory.isEmpty
-  }
+  def isCollectionEmpty(inventory: List[Product]): Boolean =inventory.isEmpty
 
   def mergeProductCollections(
       products1: List[Product],
@@ -78,6 +76,10 @@ def Question1() = {
         println("Product not found.")
     }
   }
+  var inventory1 = readInventory()
+  var inventory2 = readInventory()
+
+ var inventory3 = mergeProductCollections(inventory1, inventory2)
 }
 
 @main def main() = {
