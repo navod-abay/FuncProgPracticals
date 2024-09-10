@@ -889,3 +889,120 @@ WARNING: Unmatched cancel notification for request id 68
 2024.08.06 09:28:51 INFO  shutting down Metals
 2024.08.06 09:28:51 INFO  Shut down connection with build server.
 2024.08.06 09:28:51 INFO  Exiting server
+2024.08.20 00:24:38 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\dell\UoC\FuntionalProgramming\Practicals' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@773f5629]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@795303e8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@773f5629]
+2024.08.20 00:24:38 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.20 00:24:39 INFO  Attempting to connect to the build server...
+2024.08.20 00:24:39 INFO  Running BSP server List(C:\Users\dell\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\dell\UoC\FuntionalProgramming\Practicals\.scala-build\ide-envs.json, C:\Users\dell\UoC\FuntionalProgramming\Practicals)
+2024.08.20 00:24:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\bsp.trace.json or C:\Users\dell\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.20 00:24:41 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac9\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.20 00:24:43 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.20 00:24:43 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.20 00:24:43 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.20 00:24:48 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2024.08.20 00:24:52 INFO  BSP server: Starting compilation server
+2024.08.20 00:25:08 INFO  time: Connected to build server in 29s
+2024.08.20 00:25:08 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.20 00:25:09 INFO  time: Imported build in 0.32s
+2024.08.20 00:25:09 INFO  running doctor check
+2024.08.20 00:25:09 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.08.20 00:25:10 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:25:19 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.20 00:25:23 INFO  time: indexed workspace in 13s
+2024.08.20 00:25:25 INFO  time: compiled Practicals_2dc58a56ae in 15s
+2024.08.20 00:25:25 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:25:27 INFO  time: compiled Practicals_2dc58a56ae in 2.12s
+2024.08.20 00:25:52 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:25:55 INFO  time: compiled Practicals_2dc58a56ae in 2.5s
+2024.08.20 00:25:55 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:25:58 INFO  time: compiled Practicals_2dc58a56ae in 2.69s
+2024.08.20 00:36:06 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac9/Q1.scala
+Aug 20, 2024 12:45:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+2024.08.20 00:51:35 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:51:37 INFO  time: compiled Practicals_2dc58a56ae in 2.04s
+2024.08.20 00:52:05 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:52:07 INFO  time: compiled Practicals_2dc58a56ae in 1.55s
+Aug 20, 2024 12:54:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 550
+2024.08.20 00:55:23 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:55:24 INFO  time: compiled Practicals_2dc58a56ae in 1.13s
+Aug 20, 2024 12:57:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 964
+2024.08.20 00:57:23 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:57:23 INFO  time: compiled Practicals_2dc58a56ae in 0.57s
+2024.08.20 00:58:14 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 00:58:14 INFO  time: compiled Practicals_2dc58a56ae in 0.78s
+2024.08.20 01:00:04 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 01:00:04 INFO  time: compiled Practicals_2dc58a56ae in 0.9s
+2024.08.20 01:02:37 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 01:02:37 INFO  time: compiled Practicals_2dc58a56ae in 0.62s
+2024.08.20 01:02:51 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 01:02:51 INFO  time: compiled Practicals_2dc58a56ae in 0.5s
+Aug 20, 2024 1:03:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1206
+2024.08.20 01:05:41 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 01:05:41 INFO  time: compiled Practicals_2dc58a56ae in 0.47s
+2024.08.20 01:05:46 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 01:05:46 INFO  time: compiled Practicals_2dc58a56ae in 0.44s
+Aug 20, 2024 1:06:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1459
+2024.08.20 01:07:38 INFO  compiling practicals_2dc58a56ae (13 scala sources)
+2024.08.20 01:07:38 INFO  time: compiled Practicals_2dc58a56ae in 0.47s
+2024.08.20 01:07:55 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac9\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.20 01:07:55 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac9\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.20 01:07:55 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac9/Q2.scala
+2024.08.20 01:07:55 INFO  running doctor check
+2024.08.20 01:07:55 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.08.20 01:07:55 INFO  compiling practicals_2dc58a56ae (14 scala sources)
+2024.08.20 01:07:55 INFO  time: compiled Practicals_2dc58a56ae in 0.4s
+2024.08.20 01:07:55 INFO  compiling practicals_2dc58a56ae (14 scala sources)
+2024.08.20 01:07:56 INFO  time: compiled Practicals_2dc58a56ae in 0.61s
+2024.08.20 01:07:57 INFO  time: indexed workspace in 1.78s
+2024.08.20 01:07:58 INFO  compiling practicals_2dc58a56ae (14 scala sources)
+2024.08.20 01:07:58 INFO  time: compiled Practicals_2dc58a56ae in 0.36s
+2024.08.20 01:07:58 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac9/Q2.scala
+2024.08.20 01:09:14 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac9/Q2.scala
+Aug 20, 2024 1:09:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1822
+Aug 20, 2024 1:09:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\dell\UoC\FuntionalProgramming\Practicals\.metals\.reports\metals-full\2024-08-20\r_compiler-error_(Practicals_2dc58a56ae)_01-09-27-557.md
+2024.08.20 01:09:53 ERROR scalafmt: C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac9\Q2.scala:20: error: [dialect scala3] } expected but end of file found
+}
+ ^
+2024.08.20 01:10:09 INFO  compiling practicals_2dc58a56ae (14 scala sources)
+2024.08.20 01:10:09 INFO  time: compiled Practicals_2dc58a56ae in 0.38s
+2024.08.20 01:10:23 INFO  compiling practicals_2dc58a56ae (14 scala sources)
+2024.08.20 01:10:23 INFO  time: compiled Practicals_2dc58a56ae in 0.42s
+2024.08.20 01:10:38 INFO  compiling practicals_2dc58a56ae (14 scala sources)
+2024.08.20 01:10:38 INFO  time: compiled Practicals_2dc58a56ae in 0.3s
+2024.08.20 01:11:17 INFO  compiling practicals_2dc58a56ae (14 scala sources)
+2024.08.20 01:11:17 INFO  time: compiled Practicals_2dc58a56ae in 0.42s
+2024.08.20 01:12:20 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac9\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.20 01:12:20 INFO  no build target found for C:\Users\dell\UoC\FuntionalProgramming\Practicals\Prac9\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.20 01:12:20 WARN  Could not find semantic tokens for: file:///C:/Users/dell/UoC/FuntionalProgramming/Practicals/Prac9/Q3.scala
+2024.08.20 01:12:20 INFO  running doctor check
+2024.08.20 01:12:20 INFO  java targets: Practicals_2dc58a56ae, Practicals_2dc58a56ae-test
+2024.08.20 01:12:20 INFO  compiling practicals_2dc58a56ae (15 scala sources)
+2024.08.20 01:12:20 INFO  time: compiled Practicals_2dc58a56ae in 0.36s
+2024.08.20 01:12:20 INFO  compiling practicals_2dc58a56ae (15 scala sources)
+2024.08.20 01:12:20 INFO  time: compiled Practicals_2dc58a56ae in 0.38s
+2024.08.20 01:12:22 INFO  time: indexed workspace in 1.38s
+2024.08.20 01:12:22 INFO  compiling practicals_2dc58a56ae (15 scala sources)
+2024.08.20 01:12:22 INFO  time: compiled Practicals_2dc58a56ae in 0.27s
+2024.08.20 01:12:22 INFO  compiling practicals_2dc58a56ae (15 scala sources)
+2024.08.20 01:12:22 INFO  time: compiled Practicals_2dc58a56ae in 0.29s
+2024.08.20 01:14:51 INFO  compiling practicals_2dc58a56ae (15 scala sources)
+2024.08.20 01:14:51 INFO  time: compiled Practicals_2dc58a56ae in 0.35s
+2024.08.20 01:16:20 INFO  compiling practicals_2dc58a56ae (15 scala sources)
+2024.08.20 01:16:20 INFO  time: compiled Practicals_2dc58a56ae in 0.54s
+2024.08.20 01:17:00 INFO  compiling practicals_2dc58a56ae (15 scala sources)
+2024.08.20 01:17:00 INFO  time: compiled Practicals_2dc58a56ae in 0.3s
+2024.08.20 09:13:01 INFO  Shutting down server
+2024.08.20 09:13:01 INFO  shutting down Metals
+2024.08.20 09:13:01 INFO  Shut down connection with build server.
+2024.08.20 09:13:01 INFO  Exiting server
